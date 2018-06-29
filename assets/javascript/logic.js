@@ -35,7 +35,7 @@ $(document).ready(function () {
     });
   
   
-    // Firebase watcher + initial loader HINT: This code behaves similarly to .on("value")
+    // Firebase watcher + initial loader
     database.ref().on("child_added", function (childSnapshot) {
   
       var newTrain = childSnapshot.val().trainName;
@@ -79,5 +79,5 @@ $(document).ready(function () {
         console.log("Errors handled: " + errorObject.code);
       });
   
-  }); //end document ready
+  }); 
   
