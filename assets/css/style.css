@@ -1,0 +1,21 @@
+.jumbotron {
+    color: #fff;
+    background-position-y: 10%;
+    color: #fff;
+    background-color: #800000;
+    font-family: 'Jockey One', sans-serif;
+}
+
+div.panel-body {
+    color: black;;
+}
+
+.btn-primary {
+    background-color: #800000;
+    border-color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    font-family: 'Josefin Sans', sans-serif;
+}
